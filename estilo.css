@@ -1,0 +1,332 @@
+header,
+section,
+footer {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    
+    height: 720px;
+}
+
+#video{
+    position: relative;
+}
+#nav{
+    width: 650px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 730px;
+    background-color: none;  
+}
+#botonera_principal {
+    width: 650px;
+    height: 80px;
+    background-color: none;
+    margin-right: 10px;
+
+}
+
+#botonera_principal {
+    list-style-type: none;
+}
+
+#botonera_principal li {
+    display: inline;
+    margin-left: 20px;
+}
+
+#botonera_principal li a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 1px  #2c0366;
+   
+    border-radius: 15%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    background-color: none;
+    
+    font-size: large;
+}
+
+#botonera_principal li a:hover {
+    background-color: #2c0366;
+    color: aliceblue;
+}
+
+#foto{
+    width: 230px;
+    height: 230px;
+    position:absolute;
+    border: 1px solid #2c0366;
+    background: url(imagenes/f_p.png) no-repeat;
+    top: 200px;
+    left: 640px;
+    border-radius: 50%;
+    border: 0px solid;
+}
+
+#nombre{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    top: 450px;
+    left: 455px;
+    background: none ;
+}
+#p1{
+    text-align: center;
+    font-size: 30px;
+
+}
+#p2{
+    text-align: center;
+    font-size: 40px;
+    text-align: justify;
+}
+#seccion1{
+    width: 1280px;
+    height: 500px;
+    background-color: rgb(246, 246, 239);
+}
+
+#foto_margarita{
+  
+    height: 300px;
+    float: left;
+    background-color: none;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    animation-name: feliz;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-top: 70px;
+    margin-left: 70px;
+    box-shadow: dimgray 0px 5px 10px 5px;
+    
+      
+    }
+    @keyframes feliz {
+        0% {background-image: url(imagenes/foto_400_p.png);}
+        25% {background-image: url(imagenes/foto_400_p.png);}
+        50%{background-image: url(imagenes/foto_400_p.png);}
+        75% {background-image: url(imagenes/foto_400_f.png);}
+        100% {background-image: url(imagenes/foto_400_f.png);}
+        
+    }
+    #soy_carla{
+        float: right;
+        width: 700px;
+        height: 300px;
+        background-color:-webkit-linear-gradient(top,rgb(246, 246, 239), rgb(239, 239, 209), rgb(244, 244, 154));
+        margin: 30px;
+        margin-top: 100px;
+        margin-right: 60px;
+    }
+    #p3{
+        padding: 30px;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
+    #seccion2{
+        width: 1280px;
+        height:250px;
+        padding-top: 20px;
+        background-color: rgb(246, 246, 239);
+        border-right: 10px;
+          
+    }
+
+    .seccion_Titulo{
+        float: left;
+        background-color:rgb(243, 246, 239);
+        width: 300px;
+        height:200px;
+        
+      
+    }
+    .titulo{
+        text-align: center;
+        font-size: xx-large;
+        text-shadow: 2px 2px rgb(95, 94, 94);
+        padding-top: 50px;
+    }
+    #seccion_circulos1{
+        width: 1100px;
+        height: 200px;
+        background-color:rgb(246, 246, 239);
+        margin-left: 50px;
+        padding: 10px;
+    }
+
+   #sec2_a, #sec2_b, #sec2_c, #sec2_d {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border-top:  50px;
+        padding-right: 10px;
+        padding-left: 10px;    
+        float: right;
+    }
+
+    #bts, #js,#css,#html{
+        text-align: center;
+        color: #494646;
+        text-shadow: 5%;
+        
+    }
+    #logo_bts, #logo_js,#logo_css,#logo_h {
+        border-radius: 50%;
+    }
+    #css{
+        padding-top: 10px;
+    }
+    #js{
+        padding-top: 7px;
+    }
+
+
+#seccion3{
+    width: 1280px;
+    height: 250px;
+    background-color: rgb(246, 246, 239);
+    padding-top: 20px;
+}
+#seccion_circulos2{
+    width:1100px;
+    height: 200px;
+    background-color: rgb(246, 246, 239);
+    margin-left: 50px;
+   padding: 10px;
+}  
+
+#sec3_a, #sec3_b, #sec3_c{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-top:  50px;
+    padding-right: 10px;
+    padding-left: 10px;   
+    float: right; 
+}
+
+
+#espanol, #ingles, #italiano{
+    text-align: center;
+    
+    text-shadow: 5%;
+}
+#espanol{
+    padding-top: 12px;
+}
+#logo_espanol, #logo_italiano, #logo_ingles{
+border-radius: 50%;
+}
+
+
+
+#seccion4{
+    width: 1280px;
+    height: 500px;
+    background: -webkit-linear-gradient(top,rgb(245, 245, 242),rgb(241, 241, 218), rgb(235, 235, 180),rgb(244, 244, 154));
+   
+
+}
+#contacto{
+    width: 1280px;
+    height: 220px;
+    background: -webkit-linear-gradient(top,rgb(244, 244, 154),rgb(242, 242, 132), rgb(246, 246, 73), rgb(242, 242, 7));
+    position: relative;
+   
+    
+}
+#trabajo{
+   margin-left: 90px;
+    font-size: xx-large;
+    text-shadow: 2px 2px rgb(95, 94, 94);
+    text-align: left;
+}
+
+   
+
+
+.card{
+    float: right;
+   margin-right: 25px;
+   box-shadow: dimgray 0px 5px 10px 5px;
+}
+.card-body{
+    background-color:#f6f6ef ;
+}
+#saludo{
+width: 150px;
+height: 200px;
+position: absolute;
+background: -webkit-linear-gradient(top,rgb(246, 246, 239), rgb(239, 239, 209), rgb(244, 244, 154));
+margin-left: 30px;
+border-radius: 50%;
+border-top: 50px;
+box-shadow: dimgray 0px 5px 10px 5px;
+
+}
+#gracias{
+font-size: large;
+text-align: center;
+text-shadow: 2px 2px rgb(78, 77, 77);
+text-align: center;
+margin-top: 50px;
+
+}
+#redes{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    margin-left: 480px;
+    background: -webkit-linear-gradient(top,rgb(244, 244, 154),rgb(242, 242, 132));
+   padding-top: 50px;
+
+}
+.btn{
+    border: 10px;
+    
+}
+#formulario{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 900px;
+    background: -webkit-linear-gradient(top,rgb(244, 244, 154),rgb(242, 242, 132), rgb(246, 246, 73), rgb(242, 242, 7));
+
+}
+#llamame{
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 2px 2px rgb(95, 94, 94);
+   
+}
+
+.form-control {
+    margin-top: 5px;
+    border: 1px solid #000000;
+    width: 300px;
+    height: 30px;
+    border: 3px solid gray;
+}
+textarea{
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+    border: 3px solid gray;
+}
+
+
+
